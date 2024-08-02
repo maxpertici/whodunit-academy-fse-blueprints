@@ -21,7 +21,7 @@
             "extractToPath": "/wordpress",
             "zipFile": {
               "resource": "url",
-              "url": "https://github-proxy.com/proxy/?repo=maxpertici/whodunit-academy-fse-blueprints&directory=starter/wordpress"
+              "url": "https://github-proxy.com/proxy/?repo=maxpertici/whodunit-academy-fse-blueprints"
             }
           }
     ]
