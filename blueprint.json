@@ -21,7 +21,23 @@
             "extractToPath": "/wordpress",
             "zipFile": {
               "resource": "url",
-              "url": "https://github-proxy.com/proxy/?repo=maxpertici/whodunit-academy-fse-blueprints"
+              "url": "https://github-proxy.com/proxy/?repo=maxpertici/whodunit-academy-fse-blueprints&directory=wp-content/themes/fse-whodunit"
+            }
+          },
+          {
+            "step": "unzip",
+            "extractToPath": "/wordpress",
+            "zipFile": {
+              "resource": "url",
+              "url": "https://github-proxy.com/proxy/?repo=maxpertici/whodunit-academy-fse-blueprints&directory=wp-content/plugins/create-block-theme"
+            }
+          },
+          {
+            "step": "unzip",
+            "extractToPath": "/wordpress",
+            "zipFile": {
+              "resource": "url",
+              "url": "https://github-proxy.com/proxy/?repo=maxpertici/whodunit-academy-fse-blueprints&directory=wp-content/uploads/2024/07"
             }
           }
     ]
