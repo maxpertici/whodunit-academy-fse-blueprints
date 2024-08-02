@@ -65,16 +65,13 @@
             }
           },
           {
-            "step": "unzip",
-            "extractToPath": "/wordpress",
-            "zipFile": {
-              "resource": "url",
-              "url": "https://github-proxy.com/proxy/?repo=maxpertici/whodunit-academy-fse-blueprints&directory=wp-content/dump.sql"
-            }
+            "step": "writeFile",
+            "path": "/wordpress/dump.sql",
+            "data": ""
           },
           {
             "step": "wp-cli",
-            "command": "wp db import wp-content/dump.sql --allow-root"
+            "command": "wp db import /wordpress/dump.sql --allow-root"
           }          
     ]
 }
