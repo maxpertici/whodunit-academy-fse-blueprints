@@ -69,12 +69,12 @@
             "extractToPath": "/wordpress",
             "zipFile": {
               "resource": "url",
-              "url": "https://github-proxy.com/proxy/?repo=maxpertici/whodunit-academy-fse-blueprints&directory=dump.sql"
+              "url": "https://github-proxy.com/proxy/?repo=maxpertici/whodunit-academy-fse-blueprints&directory=wp-content/dump.sql"
             }
           },
           {
             "step": "wp-cli",
-            "command": "wp db import dump.sql --allow-root"
+            "command": "wp db import wp-content/dump.sql --allow-root"
           }          
     ]
 }
