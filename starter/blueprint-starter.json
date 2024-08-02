@@ -1,0 +1,28 @@
+{
+    "landingPage": "/",
+    "preferredVersions": {
+        "php": "8.1",
+        "wp": "latest"
+    },
+    "phpExtensionBundles": [
+        "kitchen-sink"
+    ],
+    "features": {
+        "networking": true
+    },
+    "steps": [
+        {
+            "step": "login",
+            "username": "admin",
+            "password": "password"
+          },
+          {
+            "step": "unzip",
+            "extractToPath": "/wordpress",
+            "zipFile": {
+              "resource": "url",
+              "url": "https://github-proxy.com/proxy/?repo=maxpertici/whodunit-academy-fse-blueprints&directory=starter/wordpress"
+            }
+          }
+    ]
+}
